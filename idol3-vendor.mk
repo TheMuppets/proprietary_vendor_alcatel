@@ -17,6 +17,8 @@
 PRODUCT_COPY_FILES += \
     vendor/alcatel/idol3/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/alcatel/idol3/proprietary/bin/btnvtool:system/bin/btnvtool \
+    vendor/alcatel/idol3/proprietary/bin/cnd:system/bin/cnd \
+    vendor/alcatel/idol3/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/alcatel/idol3/proprietary/bin/garden_app:system/bin/garden_app \
     vendor/alcatel/idol3/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
     vendor/alcatel/idol3/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
@@ -36,6 +38,10 @@ PRODUCT_COPY_FILES += \
     vendor/alcatel/idol3/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/alcatel/idol3/proprietary/bin/tftp_server:system/bin/tftp_server \
     vendor/alcatel/idol3/proprietary/bin/time_daemon:system/bin/time_daemon \
+    vendor/alcatel/idol3/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
+    vendor/alcatel/idol3/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
+    vendor/alcatel/idol3/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
+    vendor/alcatel/idol3/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
     vendor/alcatel/idol3/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
     vendor/alcatel/idol3/proprietary/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw \
     vendor/alcatel/idol3/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
@@ -49,14 +55,24 @@ PRODUCT_COPY_FILES += \
     vendor/alcatel/idol3/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
     vendor/alcatel/idol3/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/alcatel/idol3/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
+    vendor/alcatel/idol3/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
+    vendor/alcatel/idol3/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
     vendor/alcatel/idol3/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
     vendor/alcatel/idol3/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
     vendor/alcatel/idol3/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
+    vendor/alcatel/idol3/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
+    vendor/alcatel/idol3/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
+    vendor/alcatel/idol3/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
     vendor/alcatel/idol3/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/alcatel/idol3/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/alcatel/idol3/proprietary/etc/USBDriver.iso:system/etc/USBDriver.iso \
+    vendor/alcatel/idol3/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
+    vendor/alcatel/idol3/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
     vendor/alcatel/idol3/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
     vendor/alcatel/idol3/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
+    vendor/alcatel/idol3/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
+    vendor/alcatel/idol3/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
+    vendor/alcatel/idol3/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
     vendor/alcatel/idol3/proprietary/lib64/hw/audio.primary.msm8916.so:system/lib64/hw/audio.primary.msm8916.so \
     vendor/alcatel/idol3/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
     vendor/alcatel/idol3/proprietary/lib64/hw/lights.msm8916.so:system/lib64/hw/lights.msm8916.so \
@@ -121,10 +137,15 @@ PRODUCT_COPY_FILES += \
     vendor/alcatel/idol3/proprietary/vendor/lib64/libcalmodule_gyroscope.so:system/vendor/lib64/libcalmodule_gyroscope.so \
     vendor/alcatel/idol3/proprietary/vendor/lib64/libCB.so:system/vendor/lib64/libCB.so \
     vendor/alcatel/idol3/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
+    vendor/alcatel/idol3/proprietary/vendor/lib64/libcneconn.so:system/vendor/lib64/libcneconn.so \
+    vendor/alcatel/idol3/proprietary/vendor/lib64/libcneqmiutils.so:system/vendor/lib64/libcneqmiutils.so \
+    vendor/alcatel/idol3/proprietary/vendor/lib64/libcne.so:system/vendor/lib64/libcne.so \
     vendor/alcatel/idol3/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
     vendor/alcatel/idol3/proprietary/vendor/lib64/libdataitems.so:system/vendor/lib64/libdataitems.so \
     vendor/alcatel/idol3/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
     vendor/alcatel/idol3/proprietary/vendor/lib64/libdisp-aba.so:system/vendor/lib64/libdisp-aba.so \
+    vendor/alcatel/idol3/proprietary/vendor/lib64/libdpmframework.so:system/vendor/lib64/libdpmframework.so \
+    vendor/alcatel/idol3/proprietary/vendor/lib64/libdpmnsrm.so:system/vendor/lib64/libdpmnsrm.so \
     vendor/alcatel/idol3/proprietary/vendor/lib64/libdrmfs.so:system/vendor/lib64/libdrmfs.so \
     vendor/alcatel/idol3/proprietary/vendor/lib64/libdrmtime.so:system/vendor/lib64/libdrmtime.so \
     vendor/alcatel/idol3/proprietary/vendor/lib64/libdsi_netctrl.so:system/vendor/lib64/libdsi_netctrl.so \
@@ -149,6 +170,7 @@ PRODUCT_COPY_FILES += \
     vendor/alcatel/idol3/proprietary/vendor/lib64/libmm-disp-apis.so:system/vendor/lib64/libmm-disp-apis.so \
     vendor/alcatel/idol3/proprietary/vendor/lib64/libmm-qdcm.so:system/vendor/lib64/libmm-qdcm.so \
     vendor/alcatel/idol3/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
+    vendor/alcatel/idol3/proprietary/vendor/lib64/libNimsWrap.so:system/vendor/lib64/libNimsWrap.so \
     vendor/alcatel/idol3/proprietary/vendor/lib64/libOpenCL.so:system/vendor/lib64/libOpenCL.so \
     vendor/alcatel/idol3/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
     vendor/alcatel/idol3/proprietary/vendor/lib64/libqcci_legacy.so:system/vendor/lib64/libqcci_legacy.so \
@@ -182,6 +204,7 @@ PRODUCT_COPY_FILES += \
     vendor/alcatel/idol3/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
     vendor/alcatel/idol3/proprietary/vendor/lib64/libTimeService.so:system/vendor/lib64/libTimeService.so \
     vendor/alcatel/idol3/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
+    vendor/alcatel/idol3/proprietary/vendor/lib64/libvendorconn.so:system/vendor/lib64/libvendorconn.so \
     vendor/alcatel/idol3/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
     vendor/alcatel/idol3/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
     vendor/alcatel/idol3/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
@@ -537,8 +560,14 @@ PRODUCT_COPY_FILES += \
     vendor/alcatel/idol3/proprietary/vendor/lib/libchromatix_skuf_ov5648_p5v23c_default_video.so:system/vendor/lib/libchromatix_skuf_ov5648_p5v23c_default_video.so \
     vendor/alcatel/idol3/proprietary/vendor/lib/libchromatix_skuf_ov5648_p5v23c_preview.so:system/vendor/lib/libchromatix_skuf_ov5648_p5v23c_preview.so \
     vendor/alcatel/idol3/proprietary/vendor/lib/libchromatix_skuf_ov5648_p5v23c_snapshot.so:system/vendor/lib/libchromatix_skuf_ov5648_p5v23c_snapshot.so \
+    vendor/alcatel/idol3/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
+    vendor/alcatel/idol3/proprietary/vendor/lib/libcneconn.so:system/vendor/lib/libcneconn.so \
+    vendor/alcatel/idol3/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
+    vendor/alcatel/idol3/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
     vendor/alcatel/idol3/proprietary/vendor/lib/libdataitems.so:system/vendor/lib/libdataitems.so \
     vendor/alcatel/idol3/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
+    vendor/alcatel/idol3/proprietary/vendor/lib/libdpmframework.so:system/vendor/lib/libdpmframework.so \
+    vendor/alcatel/idol3/proprietary/vendor/lib/libdpmnsrm.so:system/vendor/lib/libdpmnsrm.so \
     vendor/alcatel/idol3/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/alcatel/idol3/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/alcatel/idol3/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
@@ -646,6 +675,7 @@ PRODUCT_COPY_FILES += \
     vendor/alcatel/idol3/proprietary/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so \
     vendor/alcatel/idol3/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
     vendor/alcatel/idol3/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
+    vendor/alcatel/idol3/proprietary/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so \
     vendor/alcatel/idol3/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
     vendor/alcatel/idol3/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
     vendor/alcatel/idol3/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
@@ -674,6 +704,7 @@ PRODUCT_COPY_FILES += \
     vendor/alcatel/idol3/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/alcatel/idol3/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/alcatel/idol3/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
+    vendor/alcatel/idol3/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
     vendor/alcatel/idol3/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     vendor/alcatel/idol3/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/alcatel/idol3/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
@@ -689,6 +720,7 @@ PRODUCT_PACKAGES += \
     colorservice \
     shutdownlistener \
     TimeService \
+    CNEService \
     com.qualcomm.location \
     qcrilmsgtunnel \
     qcnvitems \
