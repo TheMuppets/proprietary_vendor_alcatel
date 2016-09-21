@@ -75,7 +75,6 @@ PRODUCT_COPY_FILES += \
     vendor/alcatel/idol3/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
     vendor/alcatel/idol3/proprietary/lib64/hw/audio.primary.msm8916.so:system/lib64/hw/audio.primary.msm8916.so \
     vendor/alcatel/idol3/proprietary/lib64/hw/lights.msm8916.so:system/lib64/hw/lights.msm8916.so \
-    vendor/alcatel/idol3/proprietary/lib64/hw/sensors.msm8916.so:system/lib64/hw/sensors.msm8916.so \
     vendor/alcatel/idol3/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
     vendor/alcatel/idol3/proprietary/lib64/libril.so:system/lib64/libril.so \
     vendor/alcatel/idol3/proprietary/lib64/libtfa9897.so:system/lib64/libtfa9897.so \
@@ -83,7 +82,6 @@ PRODUCT_COPY_FILES += \
     vendor/alcatel/idol3/proprietary/lib/hw/audio.primary.msm8916.so:system/lib/hw/audio.primary.msm8916.so \
     vendor/alcatel/idol3/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so \
     vendor/alcatel/idol3/proprietary/lib/hw/lights.msm8916.so:system/lib/hw/lights.msm8916.so \
-    vendor/alcatel/idol3/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
     vendor/alcatel/idol3/proprietary/lib/libFastFocus.so:system/lib/libFastFocus.so \
     vendor/alcatel/idol3/proprietary/lib/libfn.fastfocus.so:system/lib/libfn.fastfocus.so \
     vendor/alcatel/idol3/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
