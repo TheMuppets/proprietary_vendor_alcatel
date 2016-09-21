@@ -74,27 +74,19 @@ PRODUCT_COPY_FILES += \
     vendor/alcatel/idol3/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
     vendor/alcatel/idol3/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
     vendor/alcatel/idol3/proprietary/lib64/hw/audio.primary.msm8916.so:system/lib64/hw/audio.primary.msm8916.so \
-    vendor/alcatel/idol3/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
     vendor/alcatel/idol3/proprietary/lib64/hw/lights.msm8916.so:system/lib64/hw/lights.msm8916.so \
     vendor/alcatel/idol3/proprietary/lib64/hw/sensors.msm8916.so:system/lib64/hw/sensors.msm8916.so \
-    vendor/alcatel/idol3/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
     vendor/alcatel/idol3/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
-    vendor/alcatel/idol3/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
-    vendor/alcatel/idol3/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
     vendor/alcatel/idol3/proprietary/lib64/libril.so:system/lib64/libril.so \
     vendor/alcatel/idol3/proprietary/lib64/libtfa9897.so:system/lib64/libtfa9897.so \
     vendor/alcatel/idol3/proprietary/lib64/sensors.native.so:system/lib64/sensors.native.so \
     vendor/alcatel/idol3/proprietary/lib/hw/audio.primary.msm8916.so:system/lib/hw/audio.primary.msm8916.so \
     vendor/alcatel/idol3/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so \
-    vendor/alcatel/idol3/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/alcatel/idol3/proprietary/lib/hw/lights.msm8916.so:system/lib/hw/lights.msm8916.so \
     vendor/alcatel/idol3/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
     vendor/alcatel/idol3/proprietary/lib/libFastFocus.so:system/lib/libFastFocus.so \
     vendor/alcatel/idol3/proprietary/lib/libfn.fastfocus.so:system/lib/libfn.fastfocus.so \
-    vendor/alcatel/idol3/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/alcatel/idol3/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/alcatel/idol3/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
-    vendor/alcatel/idol3/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/alcatel/idol3/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/alcatel/idol3/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/alcatel/idol3/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
