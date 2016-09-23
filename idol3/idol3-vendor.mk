@@ -213,6 +213,7 @@ PRODUCT_COPY_FILES += \
     vendor/alcatel/idol3/proprietary/vendor/lib/egl/libRBGLESv1_CM_adreno.so:system/vendor/lib/egl/libRBGLESv1_CM_adreno.so \
     vendor/alcatel/idol3/proprietary/vendor/lib/egl/libRBGLESv2_adreno.so:system/vendor/lib/egl/libRBGLESv2_adreno.so \
     vendor/alcatel/idol3/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
+    vendor/alcatel/idol3/proprietary/vendor/lib/hw/sound_trigger.primary.msm8916.so:system/vendor/lib/hw/sound_trigger.primary.msm8916.so \
     vendor/alcatel/idol3/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
     vendor/alcatel/idol3/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/alcatel/idol3/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
@@ -693,6 +694,7 @@ PRODUCT_COPY_FILES += \
     vendor/alcatel/idol3/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
     vendor/alcatel/idol3/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/alcatel/idol3/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
+    vendor/alcatel/idol3/proprietary/vendor/lib/libsmwrapper.so:system/vendor/lib/libsmwrapper.so \
     vendor/alcatel/idol3/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/alcatel/idol3/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/alcatel/idol3/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
