@@ -1,4 +1,4 @@
-# Copyright (C) 2016 The CyanogenMod Project
+# Copyright (C) 2017 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -40,6 +40,9 @@ PRODUCT_COPY_FILES += \
     vendor/alcatel/idol3/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/alcatel/idol3/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
     vendor/alcatel/idol3/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
+    vendor/alcatel/idol3/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
+    vendor/alcatel/idol3/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
+    vendor/alcatel/idol3/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
     vendor/alcatel/idol3/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
     vendor/alcatel/idol3/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
     vendor/alcatel/idol3/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
