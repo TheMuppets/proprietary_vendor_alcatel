@@ -1,4 +1,4 @@
-# Copyright (C) 2016 The CyanogenMod Project
+# Copyright (C) 2017 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -40,6 +40,9 @@ PRODUCT_COPY_FILES += \
     vendor/alcatel/idol3/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/alcatel/idol3/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
     vendor/alcatel/idol3/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
+    vendor/alcatel/idol3/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
+    vendor/alcatel/idol3/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
+    vendor/alcatel/idol3/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
     vendor/alcatel/idol3/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
     vendor/alcatel/idol3/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
     vendor/alcatel/idol3/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
@@ -96,6 +99,7 @@ PRODUCT_COPY_FILES += \
     vendor/alcatel/idol3/proprietary/lib/sensors.native.so:system/lib/sensors.native.so \
     vendor/alcatel/idol3/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/alcatel/idol3/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
+    vendor/alcatel/idol3/proprietary/vendor/firmware/BCM20795A1_001.002.012.0003.0110_Generic_I2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20795A1_001.002.012.0003.0110_Generic_I2C_NCD_Unsigned_configdata.ncd \
     vendor/alcatel/idol3/proprietary/vendor/firmware/BCM20795A2_001.003.025.0005.0050_Generic_I2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20795A2_001.003.025.0005.0050_Generic_I2C_NCD_Unsigned_configdata.ncd \
     vendor/alcatel/idol3/proprietary/vendor/lib64/egl/eglsubAndroid.so:system/vendor/lib64/egl/eglsubAndroid.so \
     vendor/alcatel/idol3/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
@@ -212,6 +216,7 @@ PRODUCT_COPY_FILES += \
     vendor/alcatel/idol3/proprietary/vendor/lib/egl/libRBGLESv1_CM_adreno.so:system/vendor/lib/egl/libRBGLESv1_CM_adreno.so \
     vendor/alcatel/idol3/proprietary/vendor/lib/egl/libRBGLESv2_adreno.so:system/vendor/lib/egl/libRBGLESv2_adreno.so \
     vendor/alcatel/idol3/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
+    vendor/alcatel/idol3/proprietary/vendor/lib/hw/sound_trigger.primary.msm8916.so:system/vendor/lib/hw/sound_trigger.primary.msm8916.so \
     vendor/alcatel/idol3/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
     vendor/alcatel/idol3/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/alcatel/idol3/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
@@ -684,6 +689,7 @@ PRODUCT_COPY_FILES += \
     vendor/alcatel/idol3/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/alcatel/idol3/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
     vendor/alcatel/idol3/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
+    vendor/alcatel/idol3/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/alcatel/idol3/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
     vendor/alcatel/idol3/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/alcatel/idol3/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
@@ -691,6 +697,7 @@ PRODUCT_COPY_FILES += \
     vendor/alcatel/idol3/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
     vendor/alcatel/idol3/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/alcatel/idol3/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
+    vendor/alcatel/idol3/proprietary/vendor/lib/libsmwrapper.so:system/vendor/lib/libsmwrapper.so \
     vendor/alcatel/idol3/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/alcatel/idol3/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/alcatel/idol3/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
